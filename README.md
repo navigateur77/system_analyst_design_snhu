@@ -21,7 +21,7 @@ An effort should also be put on the way the system could run on a cross-platform
 
 ## How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
 The user's need was interpreted through the DriverPass interview transcript.
-This interview describe the way the company want to design the system what the system will do and what the user expectations are.
+This interview describes the way the company wants to design the system what the system will do and what the user expectations are.
 Any project for system creation is based on the user story or user's need.
 During a Scrum project (Agile) the main important parts are the user stories and the stakeholder's feedback.
 This is a measure of the project objective and helps deliver at the end a robust, clean, secure, and user-friendly product.
