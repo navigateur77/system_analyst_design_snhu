@@ -1,27 +1,50 @@
-## System Analyst And Design Overview
+# System Analyst And Design Document Overview.
 
-## Project summary
-AirgeadBankingApp is an application that allows users to see how their investments will grow over time.
-- The app displays a summary of user saving account
-- Prompt the user to enter information's related to:
-    * Initial Investment Amount
-    * Monthly Deposit
-    * Annual Interest (Compounded)
-    * Number of Years
-The App wait for the user action to continue and display Two static reports.
-The user can play around by changing information to see the report.
+## Briefly summarize the DriverPass project. Who was the client? What type of system did they want you to design?
+
+•	The purpose of this project is to build a new web application system.
+•	The client is DriverPass company.
+•	DriverPass wants the new system to be accessible from anywhere with a computer or a mobile phone and be able to do basic Create, Read, Update, and Delete (CRUD) actions.
 
 ## What did you do particularly well?
-The user interface was very well designed with font and background color.
+The system design was well structured with the incorporation of all actors and functionalities such as:
+* Design of DriverPass System Class Diagram
+* Design of DriverPass Use Case Diagram
+* Activity Diagram
+* Sequence Diagram
 
-## Where could you enhance your code? How would these improvements make your code more efficient, secure, and so on?
-The code could be enhanced with user input validation and error handling code to take into account any error the program will encounter.
+## If you could choose one part of your work on these documents to revise, what would you pick? How would you improve it?
+If there is a document I would like to revisit it would be the "Business Requirements Documents".
+I want to go deep on the Non-functional and functional requirements.
+I would try to give more details on the system validation when it comes to user authentication and error handling.
+An effort should also be put on the way the system could run on a cross-platform with high availability.
 
-## Which pieces of the code did you find most challenging to write, and how did you overcome this? What tools or resources are you adding to your support network?
-The monthly deposit report was a little bit challenging since I must check the number of years and after that check for the number of months in a nested while loop. I used courses resources on loops and other online sites like Stack Overflow to overcome the challenge.
+## How did you interpret the user’s needs and implement them into your system design? Why is it so important to consider the user’s needs when designing?
+The user's need was interpreted through the DriverPass interview transcript.
+This interview describe the way the company want to design the system what the system will do and what the user expectations are.
+Any project for system creation is based on the user story or user's need.
+During a Scrum project (Agile) the main important parts are the user stories and the stakeholder's feedback.
+This is a measure of the project objective and helps deliver at the end a robust, clean, secure, and user-friendly product.
 
-## What skills from this project will be particularly transferable to other projects or course work?
-Module class programming and Header class programming are very good skills to keep and transfer to another project.
+## How do you approach designing software? What techniques or strategies would you use in the future to analyze and design a system?
+When designing software it is very important to have a clear understanding of requirements, think ahead of your functionality components, and divide your architecture into small pieces for performance.
+You will also want to identify and quantify non-functional and functional requirements. Visualize your design and avoid choosing patterns.
+Nowadays, there is not fit all techniques or strategies when it comes to system analyses and design but the most common system analyst techniques are:
+* Block diagram (System analysis)
+* Fault tree analysis (System analysis)
 
-## How did you make this program maintainable, readable, and adaptable?
-This program is maintainable and adaptable because it is based on class module coding. The code is readable because I apply the industry standard on code readability with spaces and naming. Outline comments and inline comments make the code readable too.
+
+***
+Special thanks to @venckus-snhu for his course. 
+
+Sources: CS-255-11329-M01 System Analysis and Design 2024 C-3 (May - June)
+
+
+
+## Author
++ **Nebnoma J Compaore**
+
+### Acknowledgments
+
+- Thank you to the SNHU team
+- Thanks to Mr. Christopher Venckus (CS-255-11329-M01 System Analysis and Design 2024 C-3 (May - June)).
